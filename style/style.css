@@ -1,0 +1,101 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.flex 
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body 
+{
+    background-image: url(../img/background5.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+}
+.heading-div 
+{
+    text-align: center;
+    margin-top: 30px;
+    padding: auto;
+    color: aliceblue;
+}
+form 
+{
+    background-color: #000000b9;
+    padding: 30px 40px 30px 40px;
+    border: 5px blue solid;
+    box-shadow: blue 0 0 20px;
+    width: 80%;
+    margin: 30px auto;
+    font-size: 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(1px);
+}
+button 
+{
+    margin-top: 50px;
+    width: 100%;
+    background-image: linear-gradient(to right, #000090, #b1b1ff);
+    border: none;
+    font-weight: 900;
+    transition: 0.3s;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+}
+button:hover
+{
+    background-image: linear-gradient(to right, #b1b1ff, #000090);
+    color: #000;
+}
+input,
+textarea
+{
+    border-radius: 0 10px 10px 0;
+    padding: 20px;
+    border-left: 5px solid blue;
+}
+label
+{
+    display: inline-block;
+    margin-bottom: 8px;
+}
+p, select
+{
+    margin-bottom: 10px;
+}
+.input 
+{
+    height: 30px;
+    width: 400px;
+    border: none;
+    border-left: 5px solid blue;
+    margin-bottom: 20px;
+    border-radius: 0 10px 10px 0;
+}
+select 
+{
+    width: 400px;
+    height: 50px;
+    border-radius: 0 10px 10px 0;
+    padding: 10px;
+    border-left: 5px solid blue;
+}
+input[type='radio'] 
+{
+    accent-color: #000090;
+}
+input[type="checkbox"] 
+{
+    accent-color: #000090;
+}
